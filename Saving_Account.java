@@ -1,5 +1,5 @@
 
-import java.util.Scanner;;
+import java.util.Scanner;
 public class Saving_Account 
 {
     double P; 
@@ -18,11 +18,6 @@ public class Saving_Account
         W=Wallet;
     }
 
-    public Saving_Account() // For my object because laziness
-    {
-
-    }
-
     public static void Main(String [] args)
     {
         
@@ -38,12 +33,11 @@ public class Saving_Account
 
     public double Deposit(double D)
     {
-        return P+=D;
+        return P += D;
     }
 
     public double Withdrawl(double WD)
     {
-        WD=W;
-        return P-=WD;
+        return P -= Math.min(WD,W);
     }
 }
