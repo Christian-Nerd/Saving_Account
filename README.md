@@ -1,6 +1,6 @@
 # Saving_Account
-Saving Account Program with compound intrest calculator
+``Saving Account Java Program with compound intrest calculator``
 
-To Run it 1st put it in one folder
+``Use a one folder placement usage for source compilation``
 
-Use a idle to Run the code and use it!
+``Use an IDE to Build it from source !``
